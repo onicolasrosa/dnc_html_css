@@ -1,0 +1,40 @@
+<h1>Meu Formulário</h1>
+<form action="https://formspree.io/f/mdojnjdn" method="POST">
+    <p>
+        <label>Digite seu nome</label><br>
+        <input placeholder="Digite algo..." type="text" required="required" value="Vídeo" name="nome">
+    </p>
+    <p>
+        <label>Digite sua mensagem</label><br>
+        <textarea rows="10" cols="60" name="mensagem" required placeholder="Digite algo...">Mensagem</textarea>
+    </p>
+    <p>
+        <label>Escolhas os esportes que você pratica:</label><br>
+        <ul>
+            <li><input value="SIM" name="futebol" type="checkbox"> Futebol</li>
+            <li><input checked="checked" value="SIM" name="flag" type="checkbox"> Futebol Americano Flag</li>
+            <li><input value="SIM" name="judo" type="checkbox"> Judô</li>
+            <li><input value="SIM" name="tenis" type="checkbox"> Tênis</li>
+        </ul>
+    </p>
+    <p>
+        <label>Escolha a sua cor favorita:</label>
+        <ul>
+            <li><input value="AZUL" name="corFavorita" type="radio"> Azul</li>
+            <li><input value="VERDE" name="corFavorita" type="radio"> Verde</li>
+            <li><input value="VERMELHO" name="corFavorita" type="radio"> Vermelho</li>
+        </ul>
+    </p>
+    <p>
+        <la>Escolha a sua Cidade</la><br>
+        <select>
+            <option>Rio de Janeiro</option>
+            <option>São José dos Campos</option>
+            <option selected>São Paulo</option>
+        </select>
+    </p>
+    <p>
+        <input value="SIM" name="termosDoContrato" type="checkbox"> Eu aceito os termos de uso do site
+    </p>
+        <button type="submit">Enviar Dados</button>
+</form>
